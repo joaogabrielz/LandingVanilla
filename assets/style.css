@@ -190,9 +190,21 @@ color: #271c1e;
 .footer h1:hover{
     color: white;
 }
-@media screen and (max-width: 376px){
+@media screen and (max-width: 700px){
     
-    .header{display: none;}
+    .header{
+
+        padding: 1rem;
+        font-weight: 900;
+    }
+    .header-nav{
+        font-size: 1.4rem;
+        font-weight: 100;
+       
+    }
+    .header img{
+        width: 2rem;
+    }
     body{
         overflow-y: none;
         overflow-x: none;
@@ -202,7 +214,7 @@ color: #271c1e;
         color: #fff2e7;
         }
         .main-section-div h3{
-        font-size: 1rem;
+        font-size: 0.9rem;
       
         }
         .main-section-div button{
@@ -215,29 +227,37 @@ color: #271c1e;
         }
     .main-section-2-div ul li{
        
-        font-size: 1.5rem;
+        font-size: 0.9rem;
+        display: flex;
+        flex-direction: column;
     }
     .main-section-2-div ul li span{
        
-        font-size: 1.5rem;
-        display: none;
+        font-size: 1rem;
+        
     }
     .main-section-2-div ul {
         display: flex;
         flex-direction: row;
-        
+        flex-direction: column;
     }
     .main-section-2-div ul img{
-        width: 4rem;
-        margin-left: 1rem;
+        width: 3rem;
+      
         
     }
     .main-section-2-div ul h3{
         
-        margin-right: 1rem;
+       
         
     }
+    .main-section-2-div h3{
+        font-size: 2rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+       
+    }
     .footer{
-        
+       display: none; 
     }
 }
