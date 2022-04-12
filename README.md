@@ -4,7 +4,7 @@
 ## Projeto Landing Page Vanilla 👈 
     
 
-<img alt='print projeto' align="center" height="340" width="440" src="../assets/master/img/print.png">
+<img alt='print projeto' align="center" height="340" width="500" src="../master/assets/img/print.png">
 
 ## Click para ver: <a href='https://joaogabrielz.github.io/LandingVanilla/'>Deploy</a> 👈 
 
