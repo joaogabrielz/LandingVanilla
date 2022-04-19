@@ -38,6 +38,28 @@ body{
     transition: 0.5s; 
    
 }
+.bullets{
+   text-align: center;
+    margin-top: 1rem;
+    margin-right:2.2rem;
+}
+.bullet-single{
+    margin:0 10px;
+    cursor:pointer;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+.active-bullet{
+    background-color: #333;
+}
+.container a{
+    opacity: 0;
+    transition: 1s;
+}
+
 @keyframes dinoanim{
     0%   {transform: rotate(-5deg);}
   /* 25%  {} */
@@ -190,7 +212,7 @@ color: #271c1e;
 .footer h1:hover{
     color: white;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 376px){
     
     .header{
 
@@ -260,4 +282,5 @@ color: #271c1e;
     .footer{
        display: none; 
     }
+    .bullets{margin-left: 2rem;}
 }
